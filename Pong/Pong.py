@@ -1,10 +1,18 @@
 import pygame
 from Rackets import Racket
+from Ball import Ball
+
+width, height = 640, 480
+white = (255,255,255)
+red = (255,0,0)
 
 class Pong():
     def __init__(self):
-        self.racket = Racket()
+        self.racket = Racket(width/2, height-20, 40, 15, white)
+        self.ball = Ball(width/2, height/2, 5, 10, red)
 
+    def draw_objects(self):
+        self.ball.draw_ball()
 
         # While loop to check key presses
     def events(self):

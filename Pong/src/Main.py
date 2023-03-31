@@ -7,4 +7,6 @@ class Main():
         pygame.init()
         screen = pygame.display.set_mode((width, height))
         pygame.display.set_caption("Pong")
-        
+
+if __name__ == "__main__":
+    Main()

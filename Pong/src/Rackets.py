@@ -1,41 +1,40 @@
 import pygame
 
-class Racket():
-    def __init__(self):
-        self.right = False
-        self.left = False
-        self.up = False
-        self.down = False
+width, height = 640, 480
 
-    def move_setup(self, dir):
+class Racket():
+    def __init__(self, x, y, width, height, colour):
+        self.x = x
+        self.y = y
+        self.width = width
+        self.height = height
+        self.colour = colour
+        self.racket = self.draw_racket()
+
+    def draw_racket(self):
+        self.rect = pygame.rect(self.x, self.y, self.width, self.height)
+        pygame.draw.rect(Main.screen, self.rect,)
+
+    def movement(self, dir):
         if dir == "left":
-            self.left = True
+            self.x += 4
+            # Stop from going out of bounds
+            if self.x >= 640:
+                self.x = 640
         if dir == "right":
-            self.right = True
+            self.x -= 4
+            # Stop from going out of bounds
+            if self.x <= 0:
+                self.x = 0
         if dir == "up":
-            self.up = True
+            self.y -= 4
+            # Stop from going out of bounds
+            if self.y <= 0:
+                self.y = 0
         if dir == "down":
-            self.down = True
-    
-    def movement(self):
-        if self.left:
-            x += 4
+            self.y += 4
             # Stop from going out of bounds
-            if x > 640:
-                x = 640
-        if self.right:
-            x -=4
-            # Stop from going out of bounds
-            if x < 0:
-                x = 0
-        if self.up:
-            y -= 4
-            # Stop from going out of bounds
-            if y < 0:
-                y = 0
-        if self.down:
-            y += 4
-            # Stop from going out of bounds
-            if y > 480:
-                y = 480
+            if self.y >= 480:
+                self.y = 480
+            
     
