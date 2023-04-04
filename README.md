@@ -5,11 +5,8 @@
 
 [komentorivi.txt](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
 
-### Viikko 2
 
-
-
-## Pong
+## Dokumentaatio
 
 [Työaikakirjanpito.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/dokumentaatio/ty%C3%B6aikakirjanpito.md)
 
