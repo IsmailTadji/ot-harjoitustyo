@@ -9,11 +9,11 @@ class Racket():
         self.width = width
         self.height = height
         self.colour = colour
-        self.racket = self.draw_racket()
+        self.rect = pygame.rect(self.x, self.y, self.width, self.height)
+
 
     def draw_racket(self):
-        self.rect = pygame.rect(self.x, self.y, self.width, self.height)
-        pygame.draw.rect(Main.screen, self.rect,)
+        pygame.draw.rect(self.rect,)
 
     def movement(self, dir):
         if dir == "left":

@@ -1,5 +1,4 @@
 import pygame
-from "Main" import Main
 
 width, height = 640, 480
 
