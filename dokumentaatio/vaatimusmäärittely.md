@@ -1,6 +1,6 @@
-Sovelluksen tarkoitus on mahdollistaa kaksi kaveria pelaamaan pongia  vastakkain.
+## Sovelluksen tarkoitus on mahdollistaa kaksi kaveria pelaamaan pongia vastakkain.
 
-Toiminnallisuudet:
+### Toiminnallisuudet:
 
 -Pallo kimpoaa mailasta
 
@@ -13,3 +13,7 @@ Toiminnallisuudet:
 -Mitä kauemmin erä kestää, sen nopeammin pallo liikkuu.
 
 -Pelaajien pisteet ruudun yläreunassa
+
+### Mahdolliset lisäykset:
+
+-Yksinpeli
