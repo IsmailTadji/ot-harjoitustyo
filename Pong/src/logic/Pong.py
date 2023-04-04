@@ -12,55 +12,45 @@ black = (0,0,0)
 class Pong():
     def __init__(self):
         pygame.init()
-        self.naytto = pygame.display.set_mode((width, height))
-        pygame.display.set_caption("Massi")
+        self.screen = pygame.display.set_mode((width, height))
+        pygame.display.set_caption("Pong")
         self.clock = pygame.time.Clock()
         self.game_loop()
 
 
     def game_loop(self):
         while True:
-            self.draw_screen()
             self.events()
             self.objects()
+            self.draw_screen()
 
         # While loop to check key presses
     def events(self):
         for event in pygame.event.get():
+
             if event.type == pygame.KEYDOWN:
 
-                if event.key == pygame.K_w:
-                    self.racket.move("up")
-                if event.key == pygame.K_s:
-                    self.racket.move("down")
-                if event.key == pygame.K_UP:
-                    self.racket.move("up")
-                if event.key == pygame.K_DOWN:
-                    self.racket.move("down")
-
-            if event.type == pygame.KEYUP:
-
-                if event.key == pygame.K_LEFT:
-                    self.racket_stop_move("up")
-                if event.key == pygame.K_RIGHT:
-                    self.racket_stop_move("down")
-                if event.key == pygame.K_UP:
-                    self.racket_stop_move("up")
-                if event.key == pygame.K_DOWN:
-                    self.racket_stop_move("down")
-
+                keys = pygame.key.get_pressed()
+                
+                if keys[pygame.K_UP]:
+                    self.racket.movement(-4)
+                
+                elif keys[pygame.K_DOWN]:
+                    self.racket.movement(4)
+            
             if event.type == pygame.QUIT:
-                exit()
+                pygame.quit()
+
 
 
     def objects(self):
-        self.racket1 = Racket(10, 20, 10, 40, white)
-	 
+        self.racket = Racket(width//2, height//2, 10, 40, white)
+
+
     def draw_screen(self):
-        self.naytto.fill((black))
-        self.racket1.draw_racket()
-        self.Ball.draw_ball()
+        self.screen.fill((black))
+        self.racket.draw_racket(self.screen)
         pygame.display.flip()    
-        self.kello.tick(60)
+        self.clock.tick(60)
 
 Pong()
