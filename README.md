@@ -1,6 +1,6 @@
 # Ohjelmistotekniikka, harjoitustyö
 ## Pong-peli
-Pelin tarkoituksena on mahdollistaa Pong kaksinpeliä ja mahdollisesti yksinpeliä.
+Pong kaksinpeli, mahdollisesti myös yksinpeli.
 
 ## Dokumentaatio
 
