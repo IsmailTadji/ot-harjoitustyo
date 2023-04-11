@@ -1,7 +1,7 @@
 import pygame
 
-width, height = 640, 480
-
+width, height = 450, 400
+velocity = 4
 
 class Racket():
     def __init__(self, x, y, width, height, colour):
@@ -10,19 +10,20 @@ class Racket():
         self.width = width
         self.height = height
         self.colour = colour
-        self.racket_rect = pygame.Rect(self.x, self.y, self.width, self.height)
 
     def draw_racket(self, screen):
-        pygame.draw.rect(screen, self.colour, self.racket_rect)
+        pygame.draw.rect(screen, self.colour, (self.x, self.y, self.width, self.height))
 
-    def movement(self, speed):
-            self.y += speed
-            # Stop from going out of bounds
-            if self.y <= 0:
-                self.y = 0
-            # Stop from going out of bounds
-            if self.y + self.height >= height:
-                self.y = height - self.height
+    def movement(self, up=True):
+            if up:
+                self.y -= velocity
+                if self.y <= 0:
+                     self.y = 0
+            else:
+                self.y += velocity
+                if self.y + self.height >= height:
+                     self.y = height - self.height
+
 
 
 
