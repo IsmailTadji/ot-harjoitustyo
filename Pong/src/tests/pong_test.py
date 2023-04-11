@@ -2,6 +2,10 @@ import unittest
 import os, sys
 from logic.Pong import Pong
 
+dir = os.path.dirname("Pong.py")
+sys.path.append(dir)
+from repositories.Pong import Pong()
+
 width, height = 450,400 
 
 class PongTest(unittest.TestCase):
