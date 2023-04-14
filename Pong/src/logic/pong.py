@@ -1,6 +1,6 @@
 import pygame
-from racket_logic import Racket
-from ball_logic import Ball
+from src.logic.racket_logic import Racket
+from src.logic.ball_logic import Ball
 
 width, height = 450,400 
 white = (255,255,255)
