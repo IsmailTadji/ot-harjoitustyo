@@ -4,8 +4,8 @@ Pong 2-player pong , mahdollisesti myös yksinpeli.
 
 ## Dokumentaatio
 
-[Timelog.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/dokumentaatio/timelog.md)
+[Timelog.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/documentation/timelog.md)
 
-[Requirements_specifications.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/dokumentaatio/requirements_specifications.md)
+[Requirements_specifications.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/documentation/requirements_specifcations.md)
 
-[Changelog.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/dokumentaatio/changelog.md)
+[Changelog.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/documentation/changelog.md)
