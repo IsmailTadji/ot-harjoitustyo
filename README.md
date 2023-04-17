@@ -13,12 +13,12 @@ Pong 2-player pong, possibly single-player.
 Installing instructions:
 
 1. Install dependancies
-´´´
+```
 Poetry install
-´´´
+```
 
 2. Start the game
-´´´
+```
 Poetry run invoke start
-´´´
+```
 
