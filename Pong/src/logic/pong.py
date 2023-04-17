@@ -10,7 +10,6 @@ racket_height = 60
 racket_width = 15
 velocity_ball = 4
 
-
 class Pong():
 
     def __init__(self):
