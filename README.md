@@ -1,11 +1,11 @@
-# Ohjelmistotekniikka, harjoitustyö
-## Pong-peli
-Pong kaksinpeli, mahdollisesti myös yksinpeli.
+# Software engineering, practical exercise
+## Pong-game
+Pong 2-player pong , mahdollisesti myös yksinpeli.
 
 ## Dokumentaatio
 
-[Työaikakirjanpito.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/dokumentaatio/ty%C3%B6aikakirjanpito.md)
+[Timelog.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/dokumentaatio/timelog.md)
 
-[Vaatimusmäärittely.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/dokumentaatio/vaatimusm%C3%A4%C3%A4rittely.md)
+[Requirements_specifications.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/dokumentaatio/requirements_specifications.md)
 
-[Changelog.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/dokumentaatio/Changelog.md)
+[Changelog.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/dokumentaatio/changelog.md)
