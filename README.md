@@ -2,7 +2,7 @@
 ## Pong-game
 Pong 2-player pong , mahdollisesti myös yksinpeli.
 
-## Dokumentaatio
+## Documentation
 
 [Timelog.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/documentation/timelog.md)
 
