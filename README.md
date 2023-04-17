@@ -1,6 +1,6 @@
 # Software engineering, practical exercise
 ## Pong-game
-Pong 2-player pong , mahdollisesti myös yksinpeli.
+Pong 2-player pong, possibly single-player.
 
 ## Documentation
 
