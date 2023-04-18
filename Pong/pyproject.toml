@@ -7,18 +7,14 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-invoke = "^2.0.0"
-coverage = "^7.2.3"
-pytest = "^7.3.0"
-pygame = "^2.3.0"
-graphviz = "^0.20.1"
 
 
 [tool.poetry.group.dev.dependencies]
-coverage = "^7.2.2"
-pytest = "^7.3.0"
+invoke = "^2.0.0"
+coverage = "^7.2.3"
+pygame = "^2.3.0"
 pylint = "^2.17.2"
-autopep8 = "^2.0.2"
+pytest = "^7.3.1"
 
 [build-system]
 requires = ["poetry-core"]

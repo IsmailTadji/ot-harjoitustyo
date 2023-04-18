@@ -1,12 +1,13 @@
 from invoke import task
 
+
 @task
 def start(ctx):
     ctx.run("python3 src/index.py", pty = True)
 
 @task
 def test(ctx):
-    ctx.run("pytest src", pty = True)
+    ctx.run("python -m pytest src/tests/", pty = True)
 
 @task
 def coverage(ctx):
@@ -19,3 +20,4 @@ def coverage_report(ctx):
 @task
 def lint(ctx):
     ctx.run("pylint src", pty = True)
+
