@@ -10,6 +10,8 @@ Pong 2-player pong, possibly single-player.
 
 [Changelog.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/documentation/changelog.md)
 
+[Architecture.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/documentation/architecture.md)
+
 Installing instructions:
 
 1. Install dependancies
