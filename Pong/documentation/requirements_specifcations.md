@@ -2,15 +2,15 @@
 
 ### Functionalities:
 
--Ball bounces off of rackets
+-Ball bounces off of rackets   DONE
 
--Ball bounces off of the roof and ground
+-Ball bounces off of the roof and ground   DONE
 
--Rackets are movable in the y-axis
+-Rackets are movable in the y-axis   DONE
 
 -Point to the opponent if player misses the ball
 
--The longer the round goes on for the faster the ball moves
+-The longer the round goes on for the faster the ball moves   DONE
 
 -The points of player at the top of the screen
 

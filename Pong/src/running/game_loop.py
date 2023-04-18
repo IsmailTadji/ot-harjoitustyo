@@ -1,5 +1,6 @@
 import pygame
-black = (0,0,0)
+black = (0, 0, 0)
+
 
 class GameLoop:
     def __init__(self, screen, clock, pong):
@@ -8,7 +9,6 @@ class GameLoop:
         self.ball = self.pong.ball
         self.screen = screen
         self.clock = clock
-
 
     def game_loop(self):
         while self.running:
