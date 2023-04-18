@@ -6,7 +6,7 @@ from running.game_loop import GameLoop
 width, height = 450, 400
 
 
-def Main():
+def main():
     pygame.init()
     screen = pygame.display.set_mode((width, height))
     clock = pygame.time.Clock()
@@ -17,4 +17,4 @@ def Main():
 
 
 if __name__ == "__main__":
-    Main()
+    main()
