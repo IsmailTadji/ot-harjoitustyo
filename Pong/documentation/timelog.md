@@ -5,5 +5,6 @@
 | 7.4.  | 2,5h  | Added movement to the ball, started collision logic.|
 | 8.4.  | 2,0h  | Made invoke tasks and made a test. Test doesn't work if start task works, and vice versa.|
 | 10.4. | 4,0h  | Finished the collision logic, made ball speed up the longer the game goes on for. Unable to fix import error in tasks.|
-| 17.7. | 4,0h  |
-| yht   | 6,5h  | 
+| 17.7. | 4,0h  | Trying to fix import errors.|
+| 18.7. | 6,5h  | Import errors fixed. Pylint implemented. Architecture diagram made.
+| Total | 25,5h | 
