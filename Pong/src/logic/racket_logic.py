@@ -6,8 +6,8 @@ VELOCITY = 4
 
 class Racket():
     def __init__(self, x_pos, y_pos, width, height, colour):
-        self.x_pos = x_pos
-        self.y_pos = y_pos
+        self.x_pos = self.original_x_pos = x_pos
+        self.y_pos = self.original_y_pos = y_pos
         self.width = width
         self.height = height
         self.colour = colour
