@@ -1,7 +1,6 @@
 import pygame
 
-width, height = 640, 480
-
+WIDTH, HEIGHT = 450, 400
 
 class Ball():
     def __init__(self, x_pos, y_pos, rad, colour, velocity):
