@@ -1,16 +1,39 @@
+import pygame
 import unittest
-from src.logic.pong import Pong
-
-width, height = 450, 400
-
+from logic.pong_logic import Pong
+pygame.init()
 
 class TestPong(unittest.TestCase):
 
     def setUp(self):
-        self.pong = Pong()
+        self.game = Pong()
 
-    def test_rackets_x_and_y(self):
-        pos1 = (self.pong.racket_p1.x_pos, self.pong.racket_p1.y_pos)
-        self.assertEqual(pos1, (430, 170))
-        pos2 = (self.pong.racket_p2.x_pos, self.pong.racket_p2.y_pos)
-        self.assertEqual(pos2, (10, 170))
+
+    def test_collision(self):
+        # test ball collision with top wall
+        self.game.ball.y_pos = 0
+        self.game.ball.y_speed = -1
+        self.game.collision()
+        self.assertEqual(self.game.ball.y_speed, 1)
+
+        # test ball collision with bottom wall
+        self.game.ball.y_pos = 400
+        self.game.ball.y_speed = 1
+        self.game.collision()
+        self.assertEqual(self.game.ball.y_speed, -1)
+
+        # test ball collision with left racket
+        self.game.ball.x_pos = 25
+        self.game.ball.x_speed = -4
+        self.game.ball.y_pos = 200
+        self.game.collision()
+        self.assertEqual(self.game.ball.x_speed, 4.2)
+
+        # test ball collision with right racket
+        self.game.ball.x_pos = 440
+        self.game.ball.x_speed = 4
+        self.game.ball.y_pos = 200
+        self.game.collision()
+        self.assertEqual(self.game.ball.x_speed, -4.2)
+
+
