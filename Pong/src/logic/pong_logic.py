@@ -9,7 +9,7 @@ BALL_RADIUS = 5
 RACKET_HEIGHT = 60
 RACKET_WIDTH = 15
 BALL_VELOCITY = 4
-
+VELOCITY = 4
 
 class Pong():
 
@@ -62,13 +62,13 @@ class Pong():
 
     def move(self, keys):
         if keys[pygame.K_w]:
-            self.racket_p2.movement(dir_up=True)
+            self.racket_p2.movement(VELOCITY, dir_up=True)
 
         elif keys[pygame.K_s]:
-            self.racket_p2.movement(dir_up=False)
+            self.racket_p2.movement(VELOCITY, dir_up=False)
 
         elif keys[pygame.K_UP]:
-            self.racket_p1.movement(dir_up=True)
+            self.racket_p1.movement(VELOCITY, dir_up=True)
 
         elif keys[pygame.K_DOWN]:
-            self.racket_p1.movement(dir_up=False)
+            self.racket_p1.movement(VELOCITY, dir_up=False)
