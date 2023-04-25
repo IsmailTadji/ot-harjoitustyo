@@ -1,5 +1,3 @@
-import pygame
-
 WIDTH, HEIGHT = 450, 400
 
 class Score:

@@ -1,5 +1,4 @@
 import pygame
-from running.score import Score
 
 pygame.init()
 WIDTH, HEIGHT = 450, 400
