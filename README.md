@@ -35,7 +35,7 @@ poetry run invoke test:
 
 To generate a coverage report, execute the following:
 ``` 
-poetry run coverage-report
+poetry run invoke coverage-report
 ```
 
 To do pylint checks, execute the following:
