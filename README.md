@@ -20,11 +20,25 @@ Installing instructions:
 
 1. Install dependancies
 ```
-Poetry install
+poetry install
 ```
 
 2. Start the game
 ```
-Poetry run invoke start
+poetry run invoke start
 ```
 
+To test the game, execute the following:
+```
+poetry run invoke test:
+```
+
+To generate a coverage report, execute the following:
+``` 
+poetry run coverage-report
+```
+
+To do pylint checks, execute the following:
+```
+poetry run invoke lint
+```
