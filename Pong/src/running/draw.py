@@ -13,7 +13,7 @@ class Draw:
         self.ball = ball
         self.score = score
 
-        
+
     def draw(self):
         self.screen.fill((BLACK))
         p1_score = FONT.render(f"{self.score.score_p1}", 1, WHITE)

@@ -14,11 +14,11 @@ class Racket():
         pygame.draw.rect(screen, self.colour,
                          (self.x_pos, self.y_pos, self.width, self.height))
 
-    def movement(self, VELOCITY, dir_up=True):
+    def movement(self, velocity, dir_up=True):
         if dir_up:
-            self.y_pos -= VELOCITY
+            self.y_pos -= velocity
             self.y_pos = max(self.y_pos,0)
         else:
-            self.y_pos += VELOCITY
+            self.y_pos += velocity
             if self.y_pos + self.height >= HEIGHT:
                 self.y_pos = HEIGHT - self.height

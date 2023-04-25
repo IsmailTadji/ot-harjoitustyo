@@ -6,7 +6,7 @@ class Score:
         self.score_p2 = 0
         self.ball = ball
         self.score_bool = False
-    
+
     def point(self):
         if self.ball.x_pos > WIDTH:
             self.score_p2 += 1

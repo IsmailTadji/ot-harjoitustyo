@@ -9,8 +9,7 @@ class GameLoop:
         self.running = True
         self.pong = pong
         self.ball = self.pong.ball
-        self.racket_p1 = self.pong.racket_p1
-        self.racket_p2 = self.pong.racket_p2
+        self.racket_p1, self.racket_p2 = self.pong.racket_p1, self.pong.racket_p2
         self.screen = screen
         self.clock = clock
         self.score = Score(self.ball)
@@ -23,7 +22,7 @@ class GameLoop:
             self.ball.move()
             self.pong.collision()
             self.score.point()
-            if self.score.score_bool == True:
+            if self.score.score_bool:
                 self.score.score_bool = False
                 self.reset()
             if self.score.score_p1 == 5 or self.score.score_p2 == 5:
