@@ -12,6 +12,8 @@ Pong 2-player pong, possibly single-player.
 
 [Architecture.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/documentation/architecture.md)
 
+## Game release
+
 [Release](https://github.com/IsmailTadji/ot-harjoitustyo/releases/tag/Viikko5)
 
 Installing instructions:
