@@ -1,5 +1,5 @@
 import pygame
-from logic.pong import Pong
+from logic.pong_logic import Pong
 from running.game_loop import GameLoop
 
 
