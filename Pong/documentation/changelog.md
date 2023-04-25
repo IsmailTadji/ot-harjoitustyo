@@ -13,3 +13,9 @@
 - Made index.py file as main
 
 ## Week 5
+
+- added tests, coverage report now 67%
+- added point system
+- added winning condition
+- fixed lint issues
+- separated draw function from GameLoop
