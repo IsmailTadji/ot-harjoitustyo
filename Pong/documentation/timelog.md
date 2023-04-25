@@ -7,4 +7,5 @@
 | 10.4. | 4,0h  | Finished the collision logic, made ball speed up the longer the game goes on for. Unable to fix import error in tasks.|
 | 17.7. | 4,0h  | Trying to fix import errors.|
 | 18.7. | 6,5h  | Import errors still prevalent, tests dont work. Pylint implemented. Architecture diagram made.
+| 24.7. | 4,5h  | Added a point system, and a winning condition, separated the draw function from game_loop.py|
 | Total | 25,5h | 
