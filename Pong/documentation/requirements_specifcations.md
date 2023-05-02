@@ -16,10 +16,4 @@
 
 ### Possible additions:
 
--End of game window
-
--Delay after set point
-
--Single player
-
--Scoreboard
+-End of game window DONE

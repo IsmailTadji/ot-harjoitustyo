@@ -19,3 +19,9 @@
 - added winning condition
 - fixed lint issues
 - separated draw function from GameLoop
+
+## Week 6
+
+- fixed movement so both rackets can move at the same time
+- added an end screen
+- added space to start

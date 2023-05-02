@@ -9,4 +9,5 @@
 | 18.7. | 6,5h  | Import errors still prevalent, tests dont work. Pylint implemented. Architecture diagram made.
 | 24.7. | 4,5h  | Added a point system, and a winning condition, separated the draw function from game_loop.py|
 | 25.7. | 5,5h  | Fixed lint, added tests (coverage 67%) |
+| 2.5.  | 5,0h  | Fixed new lint, fixed bugs and added a start and end screen |
 | Total | 35,5h | 
