@@ -1,18 +1,18 @@
 import pygame
 from logic.pong_logic import Pong
 from running.game_loop import GameLoop
-
-
-width, height = 450, 400
-
+from config import WIDTH, HEIGHT
+from database_connection import get_database_connection
+from repositories.db_scores import DbScores
 
 def main():
     pygame.init()
-    screen = pygame.display.set_mode((width, height))
+    screen = pygame.display.set_mode((WIDTH, HEIGHT))
     clock = pygame.time.Clock()
     pygame.display.set_caption("Pong")
     pong = Pong()
-    loop = GameLoop(screen, clock, pong)
+    db_scores = DbScores(get_database_connection())
+    loop = GameLoop(screen, clock, pong, db_scores)
     loop.game_loop()
 
 

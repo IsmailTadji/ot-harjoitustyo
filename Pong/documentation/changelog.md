@@ -25,3 +25,10 @@
 - fixed movement so both rackets can move at the same time
 - added an end screen
 - added space to start
+
+## Week 7
+
+- added a main menu
+- added a database
+- added a leaderboards for single player
+- added single player

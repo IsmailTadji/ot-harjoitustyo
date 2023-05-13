@@ -1,8 +1,8 @@
 import pygame
 import unittest
-from src.logic.racket_logic import Racket, WIDTH, HEIGHT
+from src.logic.racket_logic import Racket
+from src.config import WIDTH, HEIGHT, VELOCITY
 
-VELOCITY = 4
 
 class TestRacket(unittest.TestCase):
 
