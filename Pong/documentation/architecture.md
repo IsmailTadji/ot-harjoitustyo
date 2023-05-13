@@ -18,7 +18,7 @@ The ui folder contains draw, and menu buttons, which have been separate from the
 
 The game logic is seperated in its own [class](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/src/logic/pong_logic.py).
 
-![Pong_logic](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/documentation/pictures/pong_logic.png)
+![Pong_logic](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/documentation/pictures/Pong_logic.png)
 Pong class contains all the logic needed for the games functionality. It makes 2 rackets through the [Racket](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/src/logic/racket_logic.py) class and a [ball](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/src/logic/ball_logic.py) through the ball class. Movement of the rackets is handled in the Pong class, but the logic is in the Racket class. Same with the ball movement. Collision is handled in the Pong class.
 
 
