@@ -12,7 +12,7 @@ The repositories directory, contains the database fetch and add functions.
 
 ## UI
 
-The ui folder contains draw, and menu buttons, which have been separate from the games logic and only use the [button_logic](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/src/logic/button_logic.py) for the clickability of the main menu buttons. When a button is clicked, a new ui window replaces the previous one. 
+The ui folder contains [draw](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/src/ui/draw.py), and [menu buttons](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/src/ui/menu_buttons.py), which have been separated from the games logic and only use the [button_logic](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/src/logic/button_logic.py) for the clickability of the main menu buttons. When a button is clicked, a new ui window replaces the previous one. 
 
 ## Game logic
 
@@ -20,7 +20,7 @@ The game logic is seperated in its own [directory](https://github.com/IsmailTadj
 
 ![Pong_logic](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/documentation/pictures/Pong_logic.png)
 
-Pong class contains all the logic needed for the games functionality. It makes 2 rackets through the [Racket](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/src/logic/racket_logic.py) class and a ball through the [Ball](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/src/logic/ball_logic.py) class. Movement of the rackets is handled in the Pong class, but the logic is in the Racket class. Same with the ball movement. Collision is handled in the Pong class.
+[Pong class](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/src/logic/pong_logic.py) contains all the logic needed for the games functionality. It makes 2 rackets through the [Racket](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/src/logic/racket_logic.py) class and a ball through the [Ball](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/src/logic/ball_logic.py) class. Movement of the rackets is handled in the Pong class, but the logic is in the Racket class. Same with the ball movement. Collision is handled in the Pong class.
 
 ## Database
 
