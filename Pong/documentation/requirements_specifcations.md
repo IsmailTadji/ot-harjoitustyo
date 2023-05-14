@@ -1,6 +1,10 @@
-## Allows two people to play pong against each other.
+# Requirements specifications
 
-### Functionalities:
+## Pong
+
+A game of Pong where you can play against a friend, or a bot with the ability to track your previous scores against the bot.
+
+## Functionalities:
 
 - Ball bounces off of rackets
 
@@ -21,5 +25,11 @@
 - Database to store player names and their scores
 
 - Leaderboards showing top 5 scores
+
+## Possible improvements:
+
+- A leaderboard system for the two player mode
+
+- Make the bot beatable, and scoring against it grants you extra points.
 
 - Single player against a bot, points determined on how long the player has survived against the bot 

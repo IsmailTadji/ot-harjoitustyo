@@ -15,4 +15,5 @@
 | 11.5. | 6,5h  | Added a database with a leaderboard system, changed the end screen of single player |
 | 12.5. | 8,0h  | Added new tests, and resolved all but 3 pylint issues |
 | 13.5. | 8,0h  | Added docstring, new documentation |
+| 14.5. | 4,0h  | Final touches on the documentations, small tweaks in code. |
 | Total | 73h   | 
