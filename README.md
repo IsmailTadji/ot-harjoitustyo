@@ -2,20 +2,6 @@
 
 A Pong game with single and two player modes, with a leaderboard for single player.
 
-## Documentation
-
-[Timelog.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/documentation/timelog.md)
-
-[Requirements_specifications.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/documentation/requirements_specifcations.md)
-
-[Changelog.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/documentation/changelog.md)
-
-[Architecture.md](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/documentation/architecture.md)
-
-## Game release
-
-[Full release](https://github.com/IsmailTadji/ot-harjoitustyo/releases/tag/Viikko5)
-
 ## Documentation:
 
 [Architecture:](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/documentation/architecture.md)
@@ -30,21 +16,26 @@ A Pong game with single and two player modes, with a leaderboard for single play
 
 [User guide:](https://github.com/IsmailTadji/ot-harjoitustyo/blob/master/Pong/documentation/user_guide.md)
 
-Installing instructions:
+## Installing instructions:
 
+1. Download the [final release](https://github.com/IsmailTadji/ot-harjoitustyo/releases/tag/FinalVersion) .zip file and extract it in your desired directory.
 
+2. In the directory execute the following:
+```
+cd ot-harjoitustyo/Pong
+```
 
-1. Install dependancies
+3. Install dependancies
 ```
 poetry install
 ```
 
-2. Initialise the database
+4. Initialise the database
 ```
 poetry run invoke build
 ```
 
-3. Start the game
+5. Start the game
 ```
 poetry run invoke start
 ```
