@@ -2,4 +2,4 @@
 __pycache__
 .coverage
 htmlcov
-src/data/scores.db
+Pong/src/data/scores.db
